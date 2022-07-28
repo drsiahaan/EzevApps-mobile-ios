@@ -14,6 +14,7 @@ target 'EzevApps' do
   pod 'Kingfisher'
   pod 'lottie-ios'
   pod 'Alamofire'
+  pod 'SwiftyJSON'
 
   target 'EzevAppsTests' do
     inherit! :search_paths
