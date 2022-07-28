@@ -1,1 +1,1 @@
-# Ezev-Apps
+# EzevApps
