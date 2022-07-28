@@ -182,6 +182,7 @@
 				CC5DEDF428932FFD0079E5A2 /* Sources */,
 				CC5DEDF528932FFD0079E5A2 /* Frameworks */,
 				CC5DEDF628932FFD0079E5A2 /* Resources */,
+				D19D85EA3BDC1533AA27FEF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +201,7 @@
 				CC5DEE0D28932FFD0079E5A2 /* Sources */,
 				CC5DEE0E28932FFD0079E5A2 /* Frameworks */,
 				CC5DEE0F28932FFD0079E5A2 /* Resources */,
+				EAD777FDFE34B96201CBB261 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +221,7 @@
 				CC5DEE1728932FFD0079E5A2 /* Sources */,
 				CC5DEE1828932FFD0079E5A2 /* Frameworks */,
 				CC5DEE1928932FFD0079E5A2 /* Resources */,
+				DF48CD31197E16C664EC3125 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -365,6 +368,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D19D85EA3BDC1533AA27FEF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EzevApps/Pods-EzevApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EzevApps/Pods-EzevApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EzevApps/Pods-EzevApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF48CD31197E16C664EC3125 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EzevApps-EzevAppsUITests/Pods-EzevApps-EzevAppsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EzevApps-EzevAppsUITests/Pods-EzevApps-EzevAppsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EzevApps-EzevAppsUITests/Pods-EzevApps-EzevAppsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD777FDFE34B96201CBB261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EzevAppsTests/Pods-EzevAppsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EzevAppsTests/Pods-EzevAppsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EzevAppsTests/Pods-EzevAppsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

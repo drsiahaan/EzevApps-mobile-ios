@@ -6,10 +6,20 @@ target 'EzevApps' do
   use_frameworks!
 
   # Pods for EzevApps
-  
+  pod "Texture"
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RealmSwift'
+  pod 'SwiftKeychainWrapper'
+  pod 'Kingfisher'
+  pod 'lottie-ios'
+  pod 'Alamofire'
+
   target 'EzevAppsTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
   end
 
   target 'EzevAppsUITests' do
